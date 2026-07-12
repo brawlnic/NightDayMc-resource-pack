@@ -1,13 +1,18 @@
 {
   "model": {
-    "type": "minecraft:condition",
+    "type": "minecraft:select",
     "property": "minecraft:custom_model_data",
     "index": 0,
-    "on_true": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/matrix_sword"
-    },
-    "on_false": {
+    "cases": [
+      {
+        "when": "matrix_sword",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/matrix_sword"
+        }
+      }
+    ],
+    "fallback": {
       "type": "minecraft:model",
       "model": "minecraft:item/netherite_sword"
     }
