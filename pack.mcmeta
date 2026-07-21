@@ -1,7 +1,6 @@
 {
   "pack": {
-    "pack_format": 57,
-    "supported_formats": [15, 57],
+    "pack_format": 69,
     "description": "Matrix Sword - Custom Resource Pack"
   }
 }
