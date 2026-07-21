@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "brawlnic:halo"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "brawlnic:halo"
+      }
+    ]
+  }
+}
