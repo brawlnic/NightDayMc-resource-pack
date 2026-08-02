@@ -1,0 +1,4 @@
+{
+    condition: "animations.enchantingTable",
+    fallback: "assets/minecraft/textures/opti_vi_tul/gui/empty.png"
+}

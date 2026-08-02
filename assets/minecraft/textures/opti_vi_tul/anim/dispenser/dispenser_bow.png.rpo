@@ -1,0 +1,4 @@
+{
+    condition: "animations.dispenser",
+    fallback: "assets/minecraft/textures/opti_vi_tul/anim/dispenser/dispenser_bow_empty.png"
+}
